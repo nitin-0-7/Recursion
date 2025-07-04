@@ -8,7 +8,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 int factorial(int n){
-    if(n==1) return 1;                          
+    if(n==1 || n==0) return 1;                          
     return n*factorial(n-1);
 }
 
